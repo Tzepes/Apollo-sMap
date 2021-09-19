@@ -7,7 +7,7 @@
 #include "RandomLocationsGenerator.generated.h"
 
 
-UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
+UCLASS(ClassGroup = (Custom), meta = (BlueprintSpawnableComponent))
 class APOLLOSMAP_API URandomLocationsGenerator : public UActorComponent
 {
 	GENERATED_BODY()
@@ -23,4 +23,4 @@ protected:
 public:
 	UFUNCTION(BlueprintCallable)
 		FVector RandomLocation(float Min, float Max);
-}
+};
